@@ -1,3 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using TgBot;
 
-Console.WriteLine("Hello, World!");
+Bot bot = new Bot("7051595879:AAEY4LFHTEmmajOCyECgNv4rb4tNJFZXhrA");
+bot.StartBot();
